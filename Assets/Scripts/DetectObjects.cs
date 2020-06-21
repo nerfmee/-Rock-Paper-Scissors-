@@ -22,6 +22,11 @@ public class DetectObjects : MonoBehaviour
     public float StartHealth = 100;
     private float health;
     private bool isDead = false;
+
+    [SerializeField] private GameObject _impactEffect;
+    
+    
+    
     void Start()
     {
         health = StartHealth;
@@ -90,6 +95,7 @@ public class DetectObjects : MonoBehaviour
         {
             if (insideScissors)
             {
+                Instantiate(_impactEffect);
                 _collider.gameObject.SetActive(false);
                 insideScissors = false;
             }
@@ -103,6 +109,7 @@ public class DetectObjects : MonoBehaviour
         {
             if (insidePaper)
             {
+                Instantiate(_impactEffect);
                 _collider.gameObject.SetActive(false);
                 insidePaper = false;
             }
@@ -116,6 +123,7 @@ public class DetectObjects : MonoBehaviour
         {
             if (insideRock)
             {
+                Instantiate(_impactEffect);
                 _collider.gameObject.SetActive(false);
                 insideRock = false;
             }

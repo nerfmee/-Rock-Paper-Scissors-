@@ -10,6 +10,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1dd9YLGa5yxi00Iqllc8e5Pvar8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,6 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1592744150043</updated>
       <workItem from="1592744155074" duration="935000" />
+      <workItem from="1592755860601" duration="494000" />
+      <workItem from="1592758006059" duration="1123000" />
     </task>
     <servers />
   </component>
