@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\rkoby\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rkoby\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_-Rock-Paper-Scissors-.1608861093.00" t="ExcludeRecursive" />
+    <e p="D:\Рабочий стол\gitHubBALLZ\-Rock-Paper-Scissors-" t="IncludeRecursive">
+      <e p="-Rock-Paper-Scissors-.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="ChangeText.cs" t="Include" />
+          <e p="DetectObjects.cs" t="Include" />
+          <e p="MovePrefab.cs" t="Include" />
+          <e p="RemoveObjects.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
+          <e p="StandardPrefab.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
