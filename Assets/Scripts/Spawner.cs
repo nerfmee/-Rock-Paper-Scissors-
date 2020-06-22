@@ -21,9 +21,17 @@ public class Spawner : MonoBehaviour
         {
             time = 0.5f;
         }
-        else
+        else 
         {
-            time -= 0.15f;
+            if (time > 3)
+            {
+                time -= 0.4f;
+            }
+            else
+            {
+                time -= 0.15f;
+            }
+           
         }
     }
 

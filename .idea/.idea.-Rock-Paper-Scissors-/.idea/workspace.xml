@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Restart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovePrefab.cs" root0="FORCE_HIGHLIGHTING" />
@@ -20,11 +21,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovePrefab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Restart.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +70,8 @@
       <workItem from="1592744155074" duration="935000" />
       <workItem from="1592755860601" duration="494000" />
       <workItem from="1592758006059" duration="1123000" />
-      <workItem from="1592811909378" duration="3764000" />
+      <workItem from="1592811909378" duration="4047000" />
+      <workItem from="1592821370154" duration="1718000" />
     </task>
     <servers />
   </component>

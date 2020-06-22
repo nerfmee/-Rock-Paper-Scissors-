@@ -15,7 +15,8 @@ public class DetectObjects : MonoBehaviour
     private Collider _collider;
 
     private KeyCode _inputValue;
-    
+
+   [SerializeField] private GameObject _gameOverPanel;
     
     
     [Header("Unity Stuff")] public Image HealthBar;
@@ -38,7 +39,7 @@ public class DetectObjects : MonoBehaviour
         health -= amount;
         HealthBar.fillAmount = health / StartHealth;
         
-        if (health <= 0 && !isDead)
+        if (health <= 0 )
         {
             Die();
         }
@@ -46,7 +47,7 @@ public class DetectObjects : MonoBehaviour
 
     public void Die()
     {
-        
+        _gameOverPanel.SetActive(true);
     }
     private void OnTriggerEnter(Collider other)
     {

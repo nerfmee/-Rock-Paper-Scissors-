@@ -13,6 +13,7 @@
           <e p="DetectObjects.cs" t="Include" />
           <e p="MovePrefab.cs" t="Include" />
           <e p="RemoveObjects.cs" t="Include" />
+          <e p="Restart.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="StandardPrefab.cs" t="Include" />
         </e>
