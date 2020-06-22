@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 7322048910316007532}
   - component: {fileID: 7994367351950648603}
   - component: {fileID: 2651419584101077109}
-  - component: {fileID: 1020619522832692413}
   - component: {fileID: -2517285282192131375}
-  - component: {fileID: 4362083115680209385}
+  - component: {fileID: 1461459141}
   m_Layer: 0
   m_Name: Paper
   m_TagString: Paper
@@ -30,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4210258013670405251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.85, y: 0.753, z: 0}
+  m_LocalPosition: {x: 228.3501, y: 0.753, z: 0}
   m_LocalScale: {x: 1.2261, y: 1.2499, z: 1.3151}
   m_Children:
   - {fileID: 8444603377367403506}
@@ -97,19 +96,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1020619522832692413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4210258013670405251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f9268bd59877a4fa5c3749da70793e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 0.25
 --- !u!54 &-2517285282192131375
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,7 +112,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
---- !u!114 &4362083115680209385
+--- !u!114 &1461459141
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,9 +121,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4210258013670405251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7542931b7ae3f1246b02fb00ce3302c4, type: 3}
+  m_Script: {fileID: 11500000, guid: d8f9268bd59877a4fa5c3749da70793e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0.25
 --- !u!1 &8675048809360177250
 GameObject:
   m_ObjectHideFlags: 0

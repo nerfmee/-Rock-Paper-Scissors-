@@ -93,9 +93,8 @@ GameObject:
   - component: {fileID: 8391421266053433775}
   - component: {fileID: 5626687675875471337}
   - component: {fileID: 6920894851160146925}
-  - component: {fileID: 8631562342583035268}
   - component: {fileID: 4488076771765390389}
-  - component: {fileID: -8423098226921590562}
+  - component: {fileID: 55424819}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Rock
@@ -111,7 +110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6131320622339435396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.35, y: 0.753, z: 0}
+  m_LocalPosition: {x: 128.30045, y: 0.753, z: 0}
   m_LocalScale: {x: 1.2261, y: 1.2499, z: 1.3151}
   m_Children:
   - {fileID: 6723753349858985404}
@@ -178,19 +177,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8631562342583035268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6131320622339435396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f9268bd59877a4fa5c3749da70793e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 0.25
 --- !u!54 &4488076771765390389
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -207,7 +193,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
---- !u!114 &-8423098226921590562
+--- !u!114 &55424819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,6 +202,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6131320622339435396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7542931b7ae3f1246b02fb00ce3302c4, type: 3}
+  m_Script: {fileID: 11500000, guid: d8f9268bd59877a4fa5c3749da70793e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0.25

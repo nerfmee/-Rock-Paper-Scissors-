@@ -11,13 +11,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovePrefab.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovePrefab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" />
       </list>
     </option>
@@ -62,6 +68,7 @@
       <workItem from="1592744155074" duration="935000" />
       <workItem from="1592755860601" duration="494000" />
       <workItem from="1592758006059" duration="1123000" />
+      <workItem from="1592811909378" duration="3764000" />
     </task>
     <servers />
   </component>
@@ -70,4 +77,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="936" y="329" key="run.anything.popup" timestamp="1592814352116">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state x="936" y="329" key="run.anything.popup/2560.245.1680.1004/0.0.2560.1394@0.0.2560.1394" timestamp="1592814352116" />
+  </component>
 </project>

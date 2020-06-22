@@ -14,6 +14,7 @@ public class RemoveObjects : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        CameraShake.Shake(0.35f,1f);
         _detectObjects.TakeDamage(10);
        Destroy(other.gameObject); 
     }

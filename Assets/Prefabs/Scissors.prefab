@@ -93,9 +93,8 @@ GameObject:
   - component: {fileID: 8548464423229990909}
   - component: {fileID: 3946818018587010897}
   - component: {fileID: 4738031314729928298}
-  - component: {fileID: 511411776266608959}
   - component: {fileID: 133929755668874123}
-  - component: {fileID: -8981613140512302567}
+  - component: {fileID: 931189711}
   m_Layer: 0
   m_Name: Scissors
   m_TagString: Scissors
@@ -111,7 +110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5915325978943472555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.35, y: 0.753, z: 0}
+  m_LocalPosition: {x: 686.45, y: 0.753, z: 0}
   m_LocalScale: {x: 1.2261, y: 1.2499, z: 1.3151}
   m_Children:
   - {fileID: 3626909181582909287}
@@ -178,19 +177,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &511411776266608959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5915325978943472555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f9268bd59877a4fa5c3749da70793e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 0.25
 --- !u!54 &133929755668874123
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -207,7 +193,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
---- !u!114 &-8981613140512302567
+--- !u!114 &931189711
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,6 +202,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5915325978943472555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7542931b7ae3f1246b02fb00ce3302c4, type: 3}
+  m_Script: {fileID: 11500000, guid: d8f9268bd59877a4fa5c3749da70793e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0.25

@@ -95,12 +95,12 @@ public class DetectObjects : MonoBehaviour
         {
             if (insideScissors)
             {
-                Instantiate(_impactEffect);
-                _collider.gameObject.SetActive(false);
+                DoEffects();
                 insideScissors = false;
             }
             else if (insidePaper || insideRock || insideScissors)
             {
+              
                 TakeDamage(10);
                 _inputValue = KeyCode.Alpha0;
             }
@@ -109,8 +109,7 @@ public class DetectObjects : MonoBehaviour
         {
             if (insidePaper)
             {
-                Instantiate(_impactEffect);
-                _collider.gameObject.SetActive(false);
+                DoEffects();
                 insidePaper = false;
             }
             else if (insidePaper || insideRock || insideScissors)
@@ -123,8 +122,7 @@ public class DetectObjects : MonoBehaviour
         {
             if (insideRock)
             {
-                Instantiate(_impactEffect);
-                _collider.gameObject.SetActive(false);
+                DoEffects();
                 insideRock = false;
             }
             else if (insidePaper || insideRock || insideScissors)
@@ -135,6 +133,12 @@ public class DetectObjects : MonoBehaviour
         }
     }
 
+    private void DoEffects()
+    {
+        CameraShake.Shake(0.2f,0.5f);
+        Instantiate(_impactEffect);
+        _collider.gameObject.SetActive(false);
+    }
     private void ChangeInputValue()
     {
         

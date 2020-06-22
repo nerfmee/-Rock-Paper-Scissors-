@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CameraShake.cs" t="Include" />
           <e p="ChangeText.cs" t="Include" />
           <e p="DetectObjects.cs" t="Include" />
           <e p="MovePrefab.cs" t="Include" />
