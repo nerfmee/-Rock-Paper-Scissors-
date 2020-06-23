@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovePrefab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -25,8 +26,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MovePrefab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RemoveObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Restart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DetectObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/StartMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartMenu.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +75,8 @@
       <workItem from="1592758006059" duration="1123000" />
       <workItem from="1592811909378" duration="4047000" />
       <workItem from="1592821370154" duration="1718000" />
+      <workItem from="1592834892433" duration="647000" />
+      <workItem from="1592899614654" duration="2239000" />
     </task>
     <servers />
   </component>

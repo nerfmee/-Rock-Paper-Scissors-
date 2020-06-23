@@ -25,6 +25,7 @@ public class DetectObjects : MonoBehaviour
     private bool isDead = false;
 
     [SerializeField] private GameObject _impactEffect;
+    [SerializeField] private GameObject _impactNewEffect;
     
     
     
@@ -138,6 +139,7 @@ public class DetectObjects : MonoBehaviour
     {
         CameraShake.Shake(0.2f,0.5f);
         Instantiate(_impactEffect);
+        Instantiate(_impactNewEffect);
         _collider.gameObject.SetActive(false);
     }
     private void ChangeInputValue()
